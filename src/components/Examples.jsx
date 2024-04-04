@@ -32,7 +32,7 @@ export default function Examples() {
     return (
         <Section title="Examples" id="examples">
             <Tabs
-                buttonsContainer="menu"
+                // buttonsContainer="menu"    //Can be removed because there is Default Prop Values in the buttonsContainer of the component Tabs
                 buttons={<>
                     <TabButton
                         isSelected={selectedTopic === 'components'}
